@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+}
+body {
+	width: 100%;
+	height: 100%;
+	position: auto;
+}
+.main {
+	background-color: #050801;
+}
+.profile {
+	width: 50pxpx;
+border-radius: 25%;
+
+}
+nav {
+	display: inline;
+	float:right;
+	margin-top: 50px;
+	
+	word-spacing: 15px;
+	font-family: serif;
+	font-size: 24px;
+	position: fixed;
+	padding-right: 250px;
+
+
+}
+a {
+	text-decoration: none;
+}
+
+a:hover {
+color: blue;
+}
+a:visited {
+	color:blue;
+	font-weight: bold;
+}
+a:active {
+	color: red;
+	font-family: Microsoft Uighur;
+	font-weight: italic;
+}
+.blink {
+	font-family: serif;
+	font-size: 85px;
+	text-align: center;
+	color: red;
+	background-color: #CCE5FF;
+	animation:blink 2s linear infinite;
+}
+@keyframes blink{
+
+	0% {opacity: 0;}
+	50%{opacity: 1;}
+	70%{opacity: 1.5;}
+	}
+.back {
+	background-color: #9ED3E5;
+	font-weight: bold;
+
+}
+#bio {
+float: right;
+font-size: 20px;
+padding-right: 30px;
+padding-top: 100px;
+font-family: cursive;
+animation:zoom .5s;	
+}
+@keyframes zoom {
+
+from{
+	opacity: 0;
+}
+{opacity: .5;}
+100% {
+	opacity: 0;
+}
+{opacity: .5;}
+}
+
+.footer {
+	background-color: #131A1C;
+	padding-left: 35px;
+
+}
+.nam {
+	font-size: 35px;
+	color: white;
+	font-style:bold;
+	font-family: serif;
+
+}
+.jp {
+	color: blue;
+font-size: 30px;
+}
+ul {
+	color: white;
+
+}
+label {
+	color: white;
+}
+.inf {
+	display: inline-flex;
+	width: 100%;
+
+}
+
+.form {
+	margin-left: 450px;
+}
+footer {
+	text-align: center;
+}
